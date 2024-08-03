@@ -1,0 +1,27 @@
+body,.container{
+    width: 100%;
+    height: 1000px;
+    background-image: url("https://c8.alamy.com/comp/W50GE1/different-tasty-food-from-delivery-service-on-wooden-background-W50GE1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    display: flex;
+    gap:10px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+.row{
+    width: 10%;
+    height: 20%;
+    background-color:rgb(223, 117, 98);
+    border-radius: 10px;
+    border-style: solid;
+    justify-content: center;
+}
+
+ .row img{
+    border-radius: 50%;
+    width: 80px;
+    height: 50px;
+    padding: 20%;
+ }

@@ -1,0 +1,95 @@
+body,.main{
+    width: 98%;
+    height: 100%;
+    margin-left: 1%;
+    
+}
+.main{
+    border: solid 2px;
+}
+.header{
+    width: 98%;
+    height: 400px;
+margin:1% 1%;
+
+    background-image: url(color.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;
+    margin-right: 1%;
+
+    
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+}
+.food{
+    border-radius: 50%;
+    margin-left: 40%;
+    height: 150px;
+    width: 150px;
+}
+.nav{
+    width: 50%;
+    height: 16%;
+    display: flex;
+    margin-left: 10%;
+}
+.nav-item{
+    display: flex;
+    height: 100%;
+    width: 80%;
+    justify-content: space-evenly;
+    
+    list-style-type: none;
+    margin: 60px;
+    gap: 10px;
+}
+.nav-items{
+
+background-color: #ecf015;
+margin: 15% 15%;
+padding:15% 15%;
+font-size: 19px;
+
+border-radius: 10px;
+}
+.message{
+    
+    margin-top: 7%;
+    margin-left: 32%;
+    font-size: 20px;
+color: rgb(250, 18, 115);
+}
+
+.brachs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.row2{
+    margin-top: 3%;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 3%;
+}
+.bran{
+    width: 100px;
+    height: 100px;
+}
+.butt{
+    margin-left: 50%;
+    width: 50px;
+    height: 25px;
+    background-color: #ecf015;
+    
+    
+}
+a{
+    list-style-type: none;
+    text-decoration:none;
+}
